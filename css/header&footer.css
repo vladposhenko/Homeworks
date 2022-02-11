@@ -1,3 +1,57 @@
 .header{
-    font-size: 20px;
+    background-color: aquamarine;
+}
+
+.header__inner{
+    padding: 35px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+.logo{
+    display: inline-block;
+    width: 50%;
+}
+
+
+.menu{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.menu__list li{
+    display: inline-block;
+}
+.menu__list li + li{
+    margin-left: 30px;
+}
+
+.footer{
+    background-color: burlywood;
+}
+
+.footer__inner{
+    padding: 30px;
+}
+
+.social__list{
+    text-align: center;
+}
+
+.social__list li{
+    display: inline-block;
+}
+
+.social__list li + li{
+    margin-left: 30px;
+}
+
+.social{
+    display: inline-block;
+    width: 49%;
 }
