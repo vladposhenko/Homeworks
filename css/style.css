@@ -85,6 +85,8 @@ a{
 .tours__item-btn{
     margin-left: 190px;
     margin-top: 31px;
+    border: none;
+    font-size: 15px;
     
 }
 
