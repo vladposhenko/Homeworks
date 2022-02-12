@@ -21,7 +21,7 @@
 
 .menu{
     display: inline-block;
-    width: 49%;
+    width: 50%;
     text-align: center;
 }
 .menu__list li{
@@ -53,5 +53,5 @@
 
 .social{
     display: inline-block;
-    width: 49%;
+    width: 50%;
 }

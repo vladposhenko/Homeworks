@@ -3,17 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 li{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
 
 .about{
-    background-color: rgba(105, 215, 213, 0.59);
+    background-color: #a7e7e6;
 }
 
 .about__inner{
@@ -34,12 +32,15 @@ a{
 
 }
 
-.about__btn{
+
+.btn{
     display: inline-block;
     background-color: rosybrown;
-    padding: 15px;
     color: #fff;
+    padding: 15px;
 }
+
+
 
 .about__btn:hover{
     background-color: salmon;
@@ -85,10 +86,6 @@ a{
     margin-left: 190px;
     margin-top: 31px;
     
-    display: inline-block;
-    background-color: rosybrown;
-    padding: 15px;
-    color: #fff;
 }
 
 .tours__item-btn:hover{
@@ -116,9 +113,6 @@ a{
     text-align: right;
 }
 
-.tours__item + .tours__item{
-    margin-top: 20px;   
-}
 
 .team{
     padding: 30px;
@@ -142,12 +136,12 @@ a{
 
 .team__item{
     display: inline-block;
-    width: 32.333%;
+    width: 33.333%;
 }
 
 
 .team__item-title{
-    color: rgba(65, 57, 41, 0.719);
+    color: #767165;
 }
 
 .team__item-img{
@@ -155,5 +149,5 @@ a{
 }
 
 .team__item-text{
-    color: rgba(65, 57, 41, 0.719);
+    color: #767165;
 }
