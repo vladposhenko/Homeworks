@@ -24,6 +24,7 @@ body{
 a{
     color: inherit;
     text-decoration: none;
+    font-weight: inherit;
 }
 
 
@@ -32,7 +33,7 @@ a{
     margin: 0 auto;
 }
 .header{
-    padding-top: 79px ;
+    padding-top: 79px;
 }
 
 .menu li{
@@ -48,6 +49,7 @@ a{
 
 .active{
     color: #500E0A;
+    font-weight: 500;
 }
 .top{
     padding-top:162px;
@@ -81,6 +83,7 @@ a{
     font-size: 16px;
     line-height: 26px;
     cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about{
@@ -109,10 +112,10 @@ a{
     color: #fff;
 }
 
-.project__item{
+.projects__item{
     display: inline-block;
 }
-.project__item + .project__item{
+.projects__item + .projects__item{
     margin-left: 45px;
 }
 
