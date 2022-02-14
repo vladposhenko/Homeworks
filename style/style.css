@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Regular';
+    color: #000000;
+    background: #EBEBEB;
+    font-size: 16px;
+    line-height: 26px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 79px ;
+}
+
+.menu li{
+    font-family: 'Roboto Medium';
+    display: inline-block;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.menu li+li{
+    margin-left: 42px;
+}
+
+.active{
+    color: #500E0A;
+}
+.top{
+    padding-top:162px;
+    padding-bottom: 144px;
+}
+
+
+.top__title{
+    font-family: 'Roboto Medium';
+    font-size: 48px;
+    line-height: 79px; 
+}
+
+.top__text{
+    margin-top: 60px;
+    color: #727272;
+    width: 540px;
+}
+
+.top__button{
+    margin-top: 65px;
+    background: #500E0A;
+    border-radius: 7px;
+    border: none;
+    padding: 18px 41px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.about{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background: #FFFFFF;
+}
+
+.title{
+    font-family: 'Roboto Medium';;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.text{
+    width: 540px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+.projects{
+    background: #500E0A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.project__item{
+    display: inline-block;
+}
+.project__item + .project__item{
+    margin-left: 45px;
+}
+
+.project__item-info{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.project__item-title{
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'Roboto Medium';
+}
+
+.work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.work__video{
+    margin-top: 57px;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #500E0A;
+    color: #fff;
+}
+
+.footer__name{
+    font-family: 'Roboto Medium';
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.footer__text{
+    margin-top: 20px;
+}
