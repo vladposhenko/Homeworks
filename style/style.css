@@ -1,18 +1,21 @@
 @font-face {
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Roboto Medium';
+    font-family: 'Roboto';
     src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
 }
 
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
+    font-weight: 400;
     color: #000000;
     background: #EBEBEB;
     font-size: 16px;
@@ -33,7 +36,7 @@ a{
 }
 
 .menu li{
-    font-family: 'Roboto Medium';
+    font-weight: 400;
     display: inline-block;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -53,7 +56,7 @@ a{
 
 
 .top__title{
-    font-family: 'Roboto Medium';
+    font-weight: 500;
     font-size: 48px;
     line-height: 79px; 
 }
@@ -73,7 +76,8 @@ a{
     color: #FFFFFF;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     cursor: pointer;
@@ -86,7 +90,7 @@ a{
 }
 
 .title{
-    font-family: 'Roboto Medium';;
+    font-weight: 500;
     font-size: 32px;
     line-height: 37px;
     text-align: center;
@@ -115,13 +119,12 @@ a{
 .project__item-info{
     display: inline-block;
     margin-left: 20px;
-    vertical-align: top;
 }
 
 .project__item-title{
     font-size: 21px;
     line-height: 25px;
-    font-family: 'Roboto Medium';
+    font-weight: 500;
 }
 
 .work{
@@ -142,7 +145,7 @@ a{
 }
 
 .footer__name{
-    font-family: 'Roboto Medium';
+    font-weight: 500;
     font-size: 21px;
     line-height: 25px;
 }
