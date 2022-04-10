@@ -3,12 +3,20 @@
 .header {
     padding: 34px 0 25px 0;
     border-bottom: 2px solid #CCCCCC;
-    position: fixed;
-    top: 0;
-    width: 100%;
     background-color: #fff;
     z-index: 2;
 }
+
+.logo {
+    display: block;
+    opacity: 1;
+    transition: all 0.8s ease 0s;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+
 
 .header__inner {
     display: flex;
@@ -19,7 +27,9 @@
 .menu {
     display: flex;
     gap: 50px;
-    
+    animation-duration: 1s;
+    animation-name: slideNav;
+    animation-iteration-count: 1;
 }
 
 .nav__list {
@@ -34,35 +44,27 @@
     position: relative;
 }
 
-.nav__link::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #00000073;
-    transition: width 0.7s ease-out; 
-}
 
-.nav__link:hover::after,
-.nav__link:focus::after {
-    width: 100%;
-}
 
 .main__buttons {
     display: flex;
     gap: 10px;
+    transform: translate(0%,0%);
+    animation-duration: 1s;
+    animation-name: slideBtn;
+    animation-iteration-count: 1;
 }
 
 
 .login__btn {
+    width: 120px;
+    height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     font-weight: 600;
     font-size: 16px;
-    line-height: 40px;
+    /* line-height: 40px; */
     transition: all ease 1s;
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
 }
 
 .login__btn:hover {
@@ -71,14 +73,16 @@
 
 
 .logfree__btn {
+    width: 120px;
+    height: 45px;
     background: #FF6336;
     border:#FF6336 ;
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
-    line-height: 45px;
+    /* line-height: 45px; */
     transition: all ease 1s;
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
 }
 
 .logfree__btn:hover {
@@ -180,3 +184,35 @@
     font-size: 12px;
     line-height: 15px;
 }
+
+@keyframes slidein {
+    0% {
+        transform: translate(-250%,0);
+      }
+    
+      100% {
+        transform: translate(0,0);
+      }
+}
+
+
+@keyframes slideBtn {
+    0% {
+        transform: translate(200%,0);
+      }
+    
+      100% {
+        transform: translate(0,0);
+      }
+}
+
+@keyframes slideNav {
+    0% {
+        transform: translate(0px, -66px);
+      }
+    
+      100% {
+        transform: translate(0,0);
+      }
+}
+
